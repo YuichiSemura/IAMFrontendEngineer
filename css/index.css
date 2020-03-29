@@ -1,0 +1,12 @@
+.nav-item {
+  text-decoration: underline;
+  padding: 3px 8px 3px 8px;
+}
+
+.carousel-caption {
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+}
+
+body {
+  background-color: azure !important;
+}
