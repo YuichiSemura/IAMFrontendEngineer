@@ -3,10 +3,62 @@
   padding: 3px 8px 3px 8px;
 }
 
-.carousel-caption {
+.mincho {
   font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
 }
 
 body {
   background-color: azure !important;
+}
+
+#header {
+  padding: 16px
+}
+
+#header p {
+  text-decoration: underline;
+}
+
+.tiles-top-sem {
+  background-color: rgb(0, 142, 198)
+}
+
+.tiles-top-new {
+  background-color: rgb(198, 92, 0)
+}
+
+.tiles-top div {
+  padding: 3px;
+}
+
+.profile p {
+  color: rgb(223, 223, 223);
+}
+
+.row {
+  padding: 15px;
+  margin: 0
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  background-color: rgb(240, 240, 240);
+  color: #929292;
+  font-size: 12px
+}
+
+p {
+  margin: 0;
+}
+
+.modal-content {
+  background-color: rgb(233, 233, 233)!important;
+}
+
+#carousel-top {
+  max-width: 800px;
 }
