@@ -3,32 +3,58 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/c3240951a6.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <script src="/js/index.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css" media="all">
+  <!-- 自分のやつ -->
   <link rel="stylesheet" href="./css/index.css">
-
 </head>
 
 <body>
-  <!-- header (navbar) -->
 
-  <div id="header" class="container-lg" style="background-color: azure;">
+  <!-- background -->
+  <div class="background"></div>
+
+  <!-- header (navbar) -->
+  <div class="parallax rain">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <div id="header" class="container-lg">
     <div class="row">
-      <h5 class="col-6 text-info text-left" style="margin: 0">FOURTEENAGER LAB.</h5>
-      <div class="col-6">
-        <a style="margin: 0" href="#">
-          <p class="text-info text-right">Contact<i class="fas fa-paper-plane"></i></p>
+      <h5 class="col-6 text-azure text-left wow fadeInLeft" style="margin: 0">FOURTEENAGER LAB.</h5>
+      <div class="col-6 wow fadeInRight">
+        <a href="#">
+          <p class="text-azure text-right">Contact<i class="fas fa-paper-plane"></i></p>
         </a>
       </div>
     </div>
   </div>
-  <div id="navbar" class="container-fluid" style="background-color: azure; padding: 0">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-info mb-1">
+  <div id="navbar" class="container-fluid wow flipInX" style="padding: 0">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info mb-1" style="opacity: 0.8">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -58,9 +84,10 @@
   </div>
 
   <!-- container start -->
-  <div class="container-lg" style="background-color: azure;">
+  <div class="container-lg">
+    <!--  style="background-color: azure;" -->
     <!-- carousel -->
-    <div id="carousel-top" class="carousel slide carousel-fade mx-auto" data-interval="4000" data-pause="false" data-ride="carousel">
+    <div id="carousel-top" class="carousel slide carousel-fade mx-auto wow fadeIn p5" data-interval="4000" data-pause="false" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carousel-top" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-top" data-slide-to="1"></li>
@@ -112,56 +139,68 @@
     </div>
 
     <!-- What's New? -->
+    <div class="row justify-content-center p10">
+      <h2 class="mincho-bold text-center text-azure p5 wow fadeInUp" style="z-index: 1; animation-duration: 2.5s;">それは、青春を患った大人のための処方箋。</h2>
+    </div>
 
     <!-- person -->
-    <div class="row mincho">
+    <div class="row mincho p10 wow fadeInUp" style="background-color: rgba(0, 0, 0, 0.281); animation-delay: 2s;">
       <!-- sem -->
-      <div class="col-6">
-        <div class="tiles-top tiles-top-sem">
-          <div class="row">
-            <div class="col-7">
-              <div class="row profile">
-                <div class="col-12 justify-content-center">
-                  <p class="text-center">Yuichi Semura</p>
-                </div>
-                <div class="col-12">
-                  <p>・現実世界を生きる人間</p>
-                  <p>・モテたい</p>
-                  <p>・男のメンヘラ</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-5">
+      <div class="col-12 justify-content-center">
+        <h4 class="text-center text-azure">研究員紹介</h4>
+      </div>
+      <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-6 p5">
+        <div class="tiles-top tiles-top-sem wow fadeInLeft">
+          <div class="row p5">
+            <!-- photo -->
+            <div class="col-sm-12 col-md-5 p5 text-center">
               <img src="/assets/sem.JPG" alt="img1" class="img-fluid">
             </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- new -->
-      <div class="col-6">
-        <div class="tiles-top tiles-top-new">
-          <div class="row">
-            <div class="col-7">
+            <!-- bio -->
+            <div class="col-sm-12 col-md-7 p5">
               <div class="row profile">
-                <div class="col-12 justify-content-center">
-                  <p class="text-center">NEW9T</p>
+                <div class="col-sm-12 justify-content-center">
+                  <h4 class="text-center text-azure">瀬村雄一</h4>
                 </div>
-                <div class="col-12">
-                  <p>・左に同じ</p>
-
+                <div class="col-sm-12">
+                  <p>　FOURTEENAGER LAB.の研究員であると同時に、「中二病」の患者。二六歳。本人曰く、中二病を治療するための「処方箋」を求めて研究を続けている。文化祭の話に弱い。口癖は「アース」。</p>
                 </div>
               </div>
             </div>
-            <div class="col-5">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- new -->
+      <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-6 p5">
+        <div class="tiles-top tiles-top-new wow fadeInRight">
+          <div class="row p5">
+            <!-- photo -->
+            <div class="col-sm-12 col-md-5 p5 text-center">
               <img src="/assets/new.JPG" alt="img1" class="img-fluid">
+            </div>
+            <!-- bio -->
+            <div class="col-sm-12 col-md-7 p5">
+              <div class="row profile">
+                <div class="col-sm-12 justify-content-center">
+                  <h4 class="text-center text-azure">新丸九重</h4>
+                </div>
+                <div class="col-sm-12">
+                  <p>　左に同じく、研究員にして患者。というか同一人物。クソ真面目。自己愛が強く、根拠のない自信がある。CV: 佐倉綾音と後輩キャラに弱い。口癖は「もう終わりだ」。</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+
     </div>
+    <!-- container end -->
+
+
   </div>
-  <!-- container end -->
 
   <!-- footer -->
   <div class="footer gray">
@@ -189,6 +228,15 @@
       </div>
     </div>
   </div>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c3240951a6.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <!-- 自分のやつ -->
+  <script src="/js/index.js"></script>
 </body>
 
-</html>　
+</html>
