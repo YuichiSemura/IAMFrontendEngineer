@@ -1,6 +1,6 @@
 .nav-item {
   text-decoration: underline;
-  padding: 3px 8px 3px 8px;
+  padding: 0px 8px 0px 8px;
 }
 
 .bg-azure {
@@ -23,7 +23,6 @@
 
 body {
   background-color: azure !important;
-  overflow: hidden;
 }
 
 #header {
@@ -35,13 +34,13 @@ body {
 }
 
 .tiles-top-sem {
-  background-color: rgba(0, 142, 198, 0.7);
-  animation-delay: 3s;
+  background-color: rgba(0, 142, 198, 0.4);
+  animation-delay: 3.5s;
 }
 
 .tiles-top-new {
-  background-color: rgba(204, 108, 0, 0.7);
-  animation-delay: 3s;
+  background-color: rgba(204, 108, 0, 0.4);
+  animation-delay: 3.5s;
 }
 
 .tiles-top-new2 {
@@ -93,7 +92,7 @@ body {
   position: fixed;
   height: 100%;
   width: 100%;
-  background-color: rgba(1, 70, 102, 0.856);
+  background-color: rgba(45, 80, 97, 0.856);
   filter: blur(0.5px);
   z-index: -1;
 }
