@@ -23,6 +23,12 @@
 
 body {
   background-color: azure !important;
+  overflow-x: hidden;
+}
+
+#comment {
+  z-index: 1;
+  animation-duration: 2.5s;
 }
 
 #header {
@@ -33,14 +39,24 @@ body {
   text-decoration: underline;
 }
 
-.tiles-top-sem {
-  background-color: rgba(0, 142, 198, 0.4);
-  animation-delay: 3.5s;
+#person {
+  background-color: rgba(0, 0, 0, 0.281);
+  animation-delay: 3s;
 }
 
-.tiles-top-new {
+#navbar {
+  padding: 0;
+  animation-delay: 3s;
+}
+
+.tilesTopSem {
+  background-color: rgba(0, 142, 198, 0.4);
+  animation-delay: 4s;
+}
+
+.tilesTopNew {
   background-color: rgba(204, 108, 0, 0.4);
-  animation-delay: 3.5s;
+  animation-delay: 4s;
 }
 
 .tiles-top-new2 {
