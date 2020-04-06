@@ -15,6 +15,7 @@ function init() {
     }
   );
 }
+
 wow = new WOW({
   boxClass: 'wow', // default
   animateClass: 'animated', // default
