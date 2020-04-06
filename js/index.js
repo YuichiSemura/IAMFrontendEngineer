@@ -97,33 +97,33 @@ Vue.component('carousel', Vue.extend({
     '</ol>' +
     '<div class="carousel-inner">' +
     '<div class="carousel-item active">' +
-    '  <img src="../assets/slider-1.jpg" alt="img1" class="img-fluid">' +
+    '  <img src="./assets/slider-1.jpg" alt="img1" class="img-fluid">' +
     '  <div class="carousel-caption mincho d-none d-md-block">' +
     '    <h5>早く大人になりたがる人間と、</h5>' +
     '    <h5>もう大人になってしまった人間。</h5>' +
     '  </div>' +
     '</div>' +
     '<div class="carousel-item">' +
-    '  <img src="../assets/slider-2.jpg" alt="img2" class="img-fluid">' +
+    '  <img src="./assets/slider-2.jpg" alt="img2" class="img-fluid">' +
     '  <div class="carousel-caption mincho d-none d-md-block">' +
     '    <h5>そんな彼らを見ていると、</h5>' +
     '    <h5>自分自身が怖くなるんだ。</h5>' +
     '  </div>' +
     '</div>' +
     '<div class="carousel-item">' +
-    '  <img src="../assets/slider-3.jpg" alt="img3" class="img-fluid">' +
+    '  <img src="./assets/slider-3.jpg" alt="img3" class="img-fluid">' +
     '  <div class="carousel-caption mincho d-none d-md-block">' +
     '    <h5>一生ガキのままで居たいとか考える僕は、</h5>' +
     '  </div>' +
     '</div>' +
     '<div class="carousel-item">' +
-    '  <img src="../assets/slider-4.jpg" alt="img4" class="img-fluid">' +
+    '  <img src="./assets/slider-4.jpg" alt="img4" class="img-fluid">' +
     '  <div class="carousel-caption mincho d-none d-md-block">' +
     '    <h5>どこかで道を踏み外してしまったのだろうか。</h5>' +
     '  </div>' +
     '</div>' +
     '<div class="carousel-item">' +
-    '  <img src="../assets/slider-5.jpg" alt="img5" class="img-fluid">' +
+    '  <img src="./assets/slider-5.jpg" alt="img5" class="img-fluid">' +
     '  <div class="carousel-caption mincho d-none d-md-block">' +
     '    <h5>今でも、あの時のまま。僕はずっとここにいるよ。</h5>' +
     '  </div>' +
